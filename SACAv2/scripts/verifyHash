@@ -23,7 +23,7 @@ proc script::run {} {
             set hashes(f5.service_discovery.tmpl) 4811a95372d1dbdbb4f62f8bcc48d4bc919fa492cda012c81e3a2fe63d7966cc36ba8677ed049a814a930473234f300d3f8bced2b0db63176d52ac99640ce81b
             set hashes(f5.cloud_logger.v1.0.0.tmpl) 64a0ed3b5e32a037ba4e71d460385fe8b5e1aecc27dc0e8514b511863952e419a89f4a2a43326abb543bba9bc34376afa114ceda950d2c3bd08dab735ff5ad20
             set hashes(f5-appsvcs-3.13.1-1.noarch.rpm) dab2567eab07e2ef3cbfcfe891d6a35722934b3372a10571f04262f4a72b7093847222c426a41082ad4b59fe29ca8384be34944db7879aefe6cab13422324380
-
+            set hashes(f5-appsvcs-3.5.1-5.noarch.rpm) ba71c6e1c52d0c7077cdb25a58709b8fb7c37b34418a8338bbf67668339676d208c1a4fef4e5470c152aac84020b4ccb8074ce387de24be339711256c0fa78c8
             set file_path [lindex $tmsh::argv 1]
             set file_name [file tail $file_path]
 
